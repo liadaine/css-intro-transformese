@@ -4,8 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="conteúdo introdutório sobre CSS e suas diferentes abordagens">
+    <link rel="stylesheet" href="style.css">
     <meta name="author" content="Lia Alvarez">
     <title>Introdução ao CSS</title>
+
+    <style>
+        section{
+            background-color: brown;
+            color: bisque;
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -32,6 +40,14 @@
             <h2 style="color: chocolate;">Conhecendo o CSS Inline</h2>
             <p style="background-color: blueviolet;">Nessa abordagem, o CSS é colocado diretamente no elemento HTML através de um atributo chamado de <code style="background-color: cadetblue;">style</code> </p>
             <p>Aplicando o atributo no elemento.</p>
+        </section>
+        <section>
+            <h2>Conhecendo o CSS Interno</h2>
+            <p>Nessa abordagem, o CSS é colocado dentro de uma tag <pre><code>&lt; style &gt;</code></pre> no <pre><code>&lt; head &gt;</code></pre></p>
+        </section>
+        <section>
+            <h2>Conhecendo o CSS Externo</h2>
+            <p>Nessa abordagem, o CSS é aplicado em uma folha de estilos externa, conectada por um elemento de <code>&lt; link &gt;</code> dentro do <code>&lt; head &gt;</code> do documento. </p>
         </section>
     </main>
 </body>
